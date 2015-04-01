@@ -184,23 +184,7 @@ ADD_RADIO_FILES := true
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk
 
-# SELinux
-BOARD_SEPOLICY_DIRS += \
-    device/xiaomi/ferrari/sepolicy
-
-BOARD_SEPOLICY_UNION += \
-    bluetooth_loader.te \
-    bootanim.te \
-    file.te \
-    file_contexts \
-    healthd.te \
-    property_contexts \
-    qseecomd.te \
-    surfaceflinger.te \
-    system_app.te \
-    system_server.te \
-    system.te \
-    wcnss_service.te
+BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
 # Qualcomm support
 BOARD_USES_QC_TIME_SERVICES := true
