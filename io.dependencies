@@ -13,12 +13,6 @@
   },
   {
     "remote":      "github",
-    "repository":  "InfinitiveOS-Devices/android_external_mm-dash",
-    "target_path": "InfinitiveOS-Devices/external/mm-dash",
-    "revision":    "io-1.0"
-  },
-  {
-    "remote":      "github",
     "repository":  "InfinitiveOS-Devices/android_hardware_qcom_fm",
     "target_path": "hardware/qcom/fm",
     "revision":    "io-1.0"
