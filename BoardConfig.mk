@@ -132,6 +132,9 @@ COMMON_GLOBAL_CPPFLAGS += -DNO_SECURE_DISCARD -DUSE_RIL_VERSION_10
 
 # CMHW
 BOARD_USES_CYANOGEN_HARDWARE := true
+BOARD_HARDWARE_CLASS += \
+    device/xiaomi/ferrari/cmhw \
+    hardware/cyanogen
 
 # FM
 TARGET_QCOM_NO_FM_FIRMWARE := true
