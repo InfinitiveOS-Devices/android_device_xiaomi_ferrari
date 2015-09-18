@@ -311,7 +311,7 @@
             2 - Really go to sleep (don't doze)
             3 - Really go to sleep and go home (don't doze)
     -->
-    <integer name="config_shortPressOnPowerBehavior">0</integer>
+    <integer name="config_shortPressOnPowerBehavior">2</integer>
     
     <!-- Doze mode -->
     <string name="config_dozeComponent">com.android.systemui/com.android.systemui.doze.DozeService</string>
