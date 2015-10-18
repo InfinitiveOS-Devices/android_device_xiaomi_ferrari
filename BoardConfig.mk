@@ -138,7 +138,7 @@ BOARD_HARDWARE_CLASS += \
 
 # FM
 TARGET_QCOM_NO_FM_FIRMWARE := true
-AUDIO_FEATURE_ENABLED_FM := true
+#AUDIO_FEATURE_ENABLED_FM := true
 
 # Fonts
 EXTENDED_FONT_FOOTPRINT := true
@@ -151,7 +151,7 @@ TARGET_NO_RPC := true
 TARGET_PROVIDES_LIBLIGHT := true
 
 # LOGD
-TARGET_USES_LOGD := false
+#TARGET_USES_LOGD := false
 
 # Malloc
 MALLOC_IMPL := dlmalloc
@@ -185,25 +185,11 @@ TARGET_RIL_VARIANT := caf
 ADD_RADIO_FILES := true
 
 # SELinux
-include device/qcom/sepolicy/sepolicy.mk
+#include device/qcom/sepolicy/sepolicy.mk
 
 # SELinux
-BOARD_SEPOLICY_DIRS += \
-    device/xiaomi/ferrari/sepolicy
-
-BOARD_SEPOLICY_UNION += \
-    bluetooth_loader.te \
-    bootanim.te \
-    file.te \
-    file_contexts \
-    healthd.te \
-    property_contexts \
-    qseecomd.te \
-    surfaceflinger.te \
-    system_app.te \
-    system_server.te \
-    system.te \
-    wcnss_service.te
+#BOARD_SEPOLICY_DIRS += \
+#    device/xiaomi/ferrari/sepolicy
 
 # Qualcomm support
 BOARD_USES_QC_TIME_SERVICES := true
