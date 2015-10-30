@@ -26,7 +26,8 @@
  * IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
  */
-
+#include <string.h>
+#include <stdlib.h>
 #include "cam_list.h"
 
 typedef struct {

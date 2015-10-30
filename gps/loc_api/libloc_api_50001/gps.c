@@ -28,7 +28,6 @@
  */
 
 #include <hardware/gps.h>
-
 #include <stdlib.h>
 #include <string.h>
 

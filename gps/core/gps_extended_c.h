@@ -33,6 +33,7 @@
 extern "C" {
 #endif /* __cplusplus */
 
+#include <string.h>
 #include <ctype.h>
 #include <stdbool.h>
 #include <stdlib.h>

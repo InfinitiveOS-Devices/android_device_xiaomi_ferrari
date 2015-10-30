@@ -32,6 +32,8 @@
 #include <linux/msm_ion.h>
 #include <linux/videodev2.h>
 #include <media/msmb_camera.h>
+#include <string.h>
+#include <stdlib.h>
 #include "cam_intf.h"
 #include "cam_queue.h"
 

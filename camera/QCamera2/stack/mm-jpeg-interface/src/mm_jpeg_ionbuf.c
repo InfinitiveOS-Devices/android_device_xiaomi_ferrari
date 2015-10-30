@@ -26,6 +26,8 @@
  * IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
  */
+#include <string.h>
+#include <stdlib.h>
 
 #include "mm_jpeg_ionbuf.h"
 #include <linux/msm_ion.h>

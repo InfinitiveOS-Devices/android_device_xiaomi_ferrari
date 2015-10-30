@@ -27,6 +27,8 @@
  *
  */
 
+#include <string.h>
+#include <stdlib.h>
 #include <pthread.h>
 #include "mm_jpeg_dbg.h"
 #include "mm_jpeg.h"

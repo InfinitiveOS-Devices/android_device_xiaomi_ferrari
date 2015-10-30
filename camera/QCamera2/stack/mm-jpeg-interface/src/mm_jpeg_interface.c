@@ -27,6 +27,7 @@
  *
  */
 
+#include <string.h>
 #include <stdlib.h>
 #include <pthread.h>
 #include <errno.h>
@@ -35,7 +36,6 @@
 #include <sys/stat.h>
 #include <fcntl.h>
 #include <cutils/properties.h>
-#include <stdlib.h>
 
 #include "mm_jpeg_dbg.h"
 #include "mm_jpeg_interface.h"
