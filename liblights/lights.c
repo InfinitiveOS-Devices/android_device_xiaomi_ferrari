@@ -26,6 +26,8 @@
 #include <errno.h>
 #include <fcntl.h>
 #include <pthread.h>
+#include <string.h>
+#include <stdlib.h>
 
 #include <sys/types.h>
 
