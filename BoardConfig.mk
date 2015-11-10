@@ -57,9 +57,6 @@ endif
 TARGET_BOARD_PLATFORM := msm8916
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno405
 
-# Bionic Optimisation
-TARGET_USE_QCOM_BIONIC_OPTIMIZATION := true
-
 # CPU
 TARGET_CPU_CORTEX_A53 := true
 
@@ -109,7 +106,6 @@ BOARD_CHARGER_ENABLE_SUSPEND := true
 
 # Crypto
 TARGET_HW_DISK_ENCRYPTION := true
-TARGET_SWV8_DISK_ENCRYPTION := true
 
 # Display
 MAX_EGL_CACHE_KEY_SIZE := 12*1024
@@ -195,7 +191,6 @@ endif
 BOARD_USES_QCOM_HARDWARE := true
 
 # Vold
-BOARD_VOLD_EMMC_SHARES_DEV_MAJOR := true
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/platform/msm_hsusb/gadget/lun0/file
 
 # Video
