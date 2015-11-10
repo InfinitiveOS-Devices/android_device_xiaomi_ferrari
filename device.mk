@@ -170,6 +170,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     keystore.msm8916
 
+# BoringSSL compatability wrapper
+PRODUCT_PACKAGES += \
+    libboringssl-compat \
+    libstlport
+
 # Power HAL
 PRODUCT_PACKAGES += \
     power.msm8916
