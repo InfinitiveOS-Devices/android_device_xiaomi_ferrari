@@ -190,3 +190,8 @@ ro.com.android.mobiledata=false
 ro.product.manufacturer=Xiaomi
 keyguard.no_require_sim=true
 persist.power.useautobrightadj=true
+
+
+# Camera
+PRODUCT_PROPERTY_OVERRIDES += \
+    camera2.portability.force_api=1
